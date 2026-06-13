@@ -1,0 +1,194 @@
+{
+  "name": {
+    "first": "Mohammad",
+    "last": "Zahid",
+    "full": "Mohammad Zahid Hussain"
+  },
+  "email": "muhdzohair@gmail.com",
+  "tagline": "Architecting scalable cloud infrastructure, enterprise IT systems, and secure network environments.",
+  "description": "Senior IT Support & Systems Administrator and Solutions Architect with 10+ years of experience across IT infrastructure design, cloud migration, network security, and enterprise systems administration.",
+  "roles": {
+    "short": "Solutions Architect",
+    "detailed": "Senior IT Systems Administrator | Solutions Architect | Cloud & Infrastructure"
+  },
+  "location": {
+    "based": "Dubai, UAE",
+    "availability": "Dubai / Remote"
+  },
+  "available": true,
+  "bio": "Senior IT professional with 10+ years of experience across IT infrastructure design, cloud migration, network security, and enterprise systems administration. Demonstrated success in optimising complex IT environments, architecting scalable cloud solutions (AWS, Azure), and delivering high-quality technical support in multicultural enterprise settings across the UAE and wider MEI region. Holds active certifications in AWS Solutions Architect, Azure AZ-104, and Cisco CCNA.",
+  "stats": [
+    { "value": "10+", "label": "Years Experience" },
+    { "value": "5+", "label": "Enterprise Roles" },
+    { "value": "AWS + Azure", "label": "Certified" }
+  ],
+  "skills": [
+    "IT Infrastructure",
+    "Solutions Architecture",
+    "Cloud Migration",
+    "AWS",
+    "Azure",
+    "Office 365",
+    "Active Directory",
+    "Exchange Online",
+    "Cisco CCNA",
+    "VMware",
+    "Veeam",
+    "PowerShell",
+    "Network Security",
+    "ITSM",
+    "Hybrid Identity",
+    "Disaster Recovery"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Senior IT Service Analyst",
+      "company": "Fugro",
+      "companyShort": "FUGRO",
+      "type": "Full-time",
+      "location": "Dubai, UAE",
+      "period": "Aug 2017",
+      "periodEnd": "Present",
+      "bullets": [
+        "Provide 1st and 2nd line IT support across the MEI region, consistently resolving 30+ tickets weekly through HALO ITSM with high SLA adherence.",
+        "Led end-to-end migration of 1,000+ mailboxes across 6 domains from IMAP to Exchange Online, improving security posture and system reliability.",
+        "Administer Active Directory including user/group lifecycle management, Group Policy Objects (GPOs), and permission structures; manage Exchange Online licensing via Coreview.",
+        "Architect and implement centralized IT policies, driving compliance and standardisation across regional offices.",
+        "Manage Lansweeper for enterprise asset management and audit tracking, maintaining 99.9% inventory accuracy.",
+        "Deploy system images, configure network printers, and perform data recovery operations, reducing hardware setup time by 25%.",
+        "Support and administer cloud services within Microsoft Azure and Office 365 environments, including user provisioning and licence management.",
+        "Collaborate with global IT teams on infrastructure projects, cloud adoption initiatives, and security policy reviews."
+      ],
+      "desc": "Senior IT support and systems administration across the MEI region, covering cloud services, Active Directory, Exchange Online, asset management, and infrastructure projects.",
+      "tech": ["Azure", "Office 365", "Active Directory", "Exchange Online", "HALO ITSM", "Lansweeper", "Coreview", "PowerShell"]
+    },
+    {
+      "id": 2,
+      "role": "Assistant Manager – Admin IT",
+      "company": "Optimum Technology",
+      "companyShort": "OPTIMUM TECH",
+      "type": "Full-time",
+      "location": "Karachi, Pakistan",
+      "period": "Apr 2017",
+      "periodEnd": "Jul 2017",
+      "bullets": [
+        "Directed IT projects from initiation to delivery, managing timelines, scope, resources, and stakeholder communications.",
+        "Provided remote and on-site Level 2/3 technical support to enterprise clients, ensuring rapid resolution of complex issues.",
+        "Coordinated infrastructure upgrades, patch management, and scheduled system maintenance activities."
+      ],
+      "desc": "IT project management and Level 2/3 enterprise technical support covering infrastructure upgrades, patch management, and stakeholder coordination.",
+      "tech": ["Windows Server", "Active Directory", "Networking", "Project Management"]
+    },
+    {
+      "id": 3,
+      "role": "IT Support Specialist",
+      "company": "M.E. Digital Group",
+      "companyShort": "ME DIGITAL",
+      "type": "Full-time",
+      "location": "Dubai, UAE",
+      "period": "Jan 2014",
+      "periodEnd": "Mar 2017",
+      "bullets": [
+        "Delivered comprehensive L1/L2/L3 technical support for hardware, software, network, and server-related issues.",
+        "Diagnosed and resolved recurring system failures, implementing long-term solutions to reduce incident recurrence.",
+        "Administered Windows Server environments, managed end-user systems, and maintained network infrastructure."
+      ],
+      "desc": "Full-stack IT support across hardware, software, networking, and server environments with a focus on long-term incident reduction.",
+      "tech": ["Windows Server", "Networking", "LAN/WAN", "Hardware Support"]
+    },
+    {
+      "id": 4,
+      "role": "IT Officer",
+      "company": "SMB International LLC",
+      "companyShort": "SMB INTL",
+      "type": "Full-time",
+      "location": "Dubai, UAE",
+      "period": "Jan 2013",
+      "periodEnd": "Dec 2013",
+      "bullets": [
+        "Managed daily IT operations including user support, system maintenance, and incident response.",
+        "Administered server, network, and endpoint infrastructure to ensure continuous business operations."
+      ],
+      "desc": "Day-to-day IT operations management covering user support, server administration, and network infrastructure.",
+      "tech": ["Windows Server", "Networking", "Endpoint Management"]
+    },
+    {
+      "id": 5,
+      "role": "System Support Executive",
+      "company": "Innovative Micro Computer",
+      "companyShort": "INNOVATIVE MC",
+      "type": "Full-time",
+      "location": "Karachi, Pakistan",
+      "period": "May 2007",
+      "periodEnd": "Dec 2012",
+      "bullets": [
+        "Provided technical support and troubleshooting for desktops, servers, and networking equipment across multiple client sites.",
+        "Installed, configured, and maintained Windows OS, hardware components, and peripherals.",
+        "Delivered on-site and remote support to ensure minimal downtime across client environments."
+      ],
+      "desc": "Multi-client technical support covering desktop, server, and network infrastructure installation, configuration, and ongoing maintenance.",
+      "tech": ["Windows OS", "Hardware", "Peripherals", "Networking", "Desktop Support"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Cloud DR Architecture",
+      "subtitle": "Azure Site Recovery + Veeam",
+      "type": "Cloud Architecture",
+      "link": "https://linkedin.com/in/mzahidhussain",
+      "image": "/assets/project-artgenio1.png",
+      "tech": ["Azure Site Recovery", "Veeam", "VMware", "RTO/RPO", "Automated Failover"],
+      "desc": "Architected and implemented a cloud-based disaster recovery solution using Azure Site Recovery with Veeam Backup & Replication, achieving RTO under 2 hours and RPO of 15 minutes for critical VMware-hosted workloads with automated failover testing."
+    },
+    {
+      "id": 2,
+      "title": "Multi-Region AWS Deployment",
+      "subtitle": "Scalable Infrastructure Design",
+      "type": "Cloud Infrastructure",
+      "link": "https://linkedin.com/in/mzahidhussain",
+      "image": "/assets/project-easyfolio1.png",
+      "tech": ["AWS EC2", "S3", "IAM", "VPC", "CloudWatch", "Cost Optimisation"],
+      "desc": "Designed and provisioned a multi-region AWS environment utilising EC2, S3, IAM, VPC, and CloudWatch for scalable application hosting. Implemented cost-optimisation strategies including reserved instances and S3 lifecycle policies, reducing cloud spend by approximately 20%."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Azure AD & Hybrid Identity",
+      "platform": "Project Highlight",
+      "year": "2024",
+      "link": "https://linkedin.com/in/mzahidhussain",
+      "desc": "Designed and deployed Azure AD Connect establishing hybrid identity infrastructure with seamless SSO across on-premises and cloud. Configured Conditional Access policies and MFA to strengthen identity security posture organisation-wide."
+    },
+    {
+      "id": 2,
+      "title": "1,000+ Mailbox Migration",
+      "platform": "Project Highlight",
+      "year": "2023",
+      "link": "https://linkedin.com/in/mzahidhussain",
+      "desc": "Led end-to-end migration of 1,000+ mailboxes across 6 domains from IMAP to Exchange Online, improving security posture and system reliability across the MEI region."
+    },
+    {
+      "id": 3,
+      "title": "AWS S3 to Azure Blob Migration",
+      "platform": "Project Highlight",
+      "year": "2023",
+      "link": "https://linkedin.com/in/mzahidhussain",
+      "desc": "Architected and executed a zero-data-loss cloud data migration from AWS S3 to Azure Blob Storage with minimal downtime, ensuring full business continuity throughout the transition."
+    },
+    {
+      "id": 4,
+      "title": "Enterprise Wireless Network",
+      "platform": "Project Highlight",
+      "year": "2022",
+      "link": "https://linkedin.com/in/mzahidhussain",
+      "desc": "Designed and implemented a Cisco-based enterprise wireless infrastructure, significantly improving network coverage, performance, and security across regional office locations."
+    }
+  ],
+  "socials": [
+    { "label": "GitHub",   "href": "https://github.com/mzh-tech" },
+    { "label": "LinkedIn", "href": "https://linkedin.com/in/mzahidhussain" }
+  ]
+}

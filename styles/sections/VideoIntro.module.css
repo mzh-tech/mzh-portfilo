@@ -1,0 +1,168 @@
+/* ── Section shell ──────────────────────────── */
+.section {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  z-index: 1;
+  background: #050505;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Always-dark base ───────────────────────── */
+.darkBase {
+  position: absolute;
+  inset: 0;
+  background: #050505;
+  z-index: 0;
+}
+
+/* ── Photo: medium, right side, portrait ────── */
+.photoWrap {
+  position: absolute;
+  right: 8%;
+  bottom: 0;
+  width: clamp(260px, 28vw, 420px);
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.photoImg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center top;
+  display: block;
+  border-radius: 8px 8px 0 0;
+  /* Blend white bg photo softly into dark site */
+  mix-blend-mode: luminosity;
+  opacity: 0.92;
+  filter: contrast(1.08) brightness(0.9);
+}
+
+/* ── Gradient overlay — blends photo into bg ── */
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background:
+    /* Left fade — keeps text readable */
+    linear-gradient(to right, rgba(5,5,5,0.95) 0%, rgba(5,5,5,0.6) 45%, rgba(5,5,5,0.0) 72%),
+    /* Bottom fade — grounds the photo */
+    linear-gradient(to top,   rgba(5,5,5,1.0) 0%, rgba(5,5,5,0.0) 35%),
+    /* Top fade */
+    linear-gradient(to bottom,rgba(5,5,5,0.5) 0%, rgba(5,5,5,0.0) 25%);
+}
+
+/* ── Landing text ───────────────────────────── */
+.heroContent {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem;
+  pointer-events: none;
+  max-width: 55%;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-family: var(--font-baloo), sans-serif;
+  font-size: clamp(3.5rem, 7.5vw, 8rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 0.88;
+  letter-spacing: -0.02em;
+}
+
+.role {
+  font-size: clamp(0.75rem, 1.1vw, 0.95rem);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 1.25rem;
+}
+
+/* ── Scroll cue ─────────────────────────────── */
+.scrollCue {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  pointer-events: all;
+  transition: color 0.2s;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.scrollCue:hover { color: #fff; }
+
+.scrollLabel {
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.scrollLine {
+  width: 1px;
+  height: 38px;
+  background: currentColor;
+  animation: scrollPulse 1.8s ease-in-out infinite;
+  transform-origin: top;
+}
+
+@keyframes scrollPulse {
+  0%   { transform: scaleY(0); opacity: 0; }
+  40%  { transform: scaleY(1); opacity: 1; }
+  100% { transform: scaleY(1); opacity: 0; }
+}
+
+/* ── Tablet ─────────────────────────────────── */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .heroContent { max-width: 65%; padding: 0 3rem; }
+  .name        { font-size: clamp(3rem, 9vw, 6rem); }
+  .photoWrap   { width: clamp(220px, 32vw, 360px); right: 4%; }
+}
+
+/* ── Mobile ─────────────────────────────────── */
+@media (max-width: 767px) {
+  .heroContent {
+    padding: 0 1.5rem;
+    max-width: 100%;
+    justify-content: flex-end;
+    padding-bottom: 8rem;
+  }
+  .name      { font-size: clamp(2.8rem, 11vw, 5rem); }
+  .photoWrap {
+    right: 50%;
+    transform: translateX(50%);
+    width: clamp(200px, 55vw, 300px);
+    bottom: 0;
+    opacity: 0.45;
+  }
+  .scrollCue { bottom: 1.5rem; }
+}

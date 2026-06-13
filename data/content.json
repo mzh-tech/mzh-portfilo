@@ -1,0 +1,22 @@
+{
+  "site": {
+    "tagline": "Portfolio 2026"
+  },
+  "hero": {
+    "taglineHighlight": "Cloud",
+    "freelanceNote": "Open to Solutions Architecture, Cloud Infrastructure, and Senior IT roles in UAE and beyond.",
+    "availableLabel": "Available for opportunities",
+    "pills": ["Solutions Architect", "Cloud Migration", "IT Infrastructure", "Network Security"],
+    "specialistStat": { "value": "AWS + Azure", "label": "Certified" }
+  },
+  "interstitial": {
+    "availabilityLabel": "Availability",
+    "basedInLabel": "Based in",
+    "statLabels": ["Years\nexperience", "Enterprise\nroles", "Cloud\ncertified"]
+  },
+  "footer": {
+    "eyebrow": "Available for enterprise IT and cloud architecture roles",
+    "ctaLines": ["Building resilient", "cloud infrastructure"],
+    "ctaAccent": "reliably."
+  }
+}
